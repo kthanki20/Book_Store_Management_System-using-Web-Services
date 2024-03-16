@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="dcaf9381-5e9e-4f37-a985-426d5967896a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9000/Book_Store_Managment_System" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Book_Store_Managment_System.disco" MetadataType="Disco" ID="e0c7a357-4502-49ba-bda7-45bf17254ee7" SourceId="1" SourceUrl="http://localhost:9000/Book_Store_Managment_System?disco" />
+    <MetadataFile FileName="Book_Store_Managment_System.xsd" MetadataType="Schema" ID="acf414f0-63d3-4e2a-8b20-08554a5f4ce6" SourceId="1" SourceUrl="http://localhost:9000/Book_Store_Managment_System?xsd=xsd0" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="6effede0-0a95-4b97-8b50-ef17b4e13328" SourceId="1" SourceUrl="http://localhost:9000/Book_Store_Managment_System?wsdl" />
+    <MetadataFile FileName="Book_Store_Managment_System1.xsd" MetadataType="Schema" ID="feeca133-caf1-4ab6-a3fa-f3561ef7e315" SourceId="1" SourceUrl="http://localhost:9000/Book_Store_Managment_System?xsd=xsd2" />
+    <MetadataFile FileName="Book_Store_Managment_System2.xsd" MetadataType="Schema" ID="e5b841b4-24f7-47db-923e-c8b5597cc63a" SourceId="1" SourceUrl="http://localhost:9000/Book_Store_Managment_System?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
